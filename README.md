@@ -1,4 +1,4 @@
-# 🪙 ScratchCard for Jetpack Compose
+# 🪙 ScratchCard-Andorid
 
 A modern, high-performance, open-source Android library for Jetpack Compose that provides customizable **Scratch-to-Reveal** cards with hardware-accelerated masking and real-time touch gesture tracking.
 
