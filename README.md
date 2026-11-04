@@ -6,6 +6,26 @@ Built 100% with declarative Jetpack Compose UI and Compose Canvas graphics—no 
 
 ---
 
+<div align="center">
+
+[![JitPack](https://jitpack.io/v/Aptic-Studio/ScratchCard-Android.svg)](https://jitpack.io/#Aptic-Studio/ScratchCard-Android)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
+
+📱 **[Try Demo APK (Google Drive)](https://drive.google.com/file/d/1z9QQwsmwJdvBlPf5BROMAnIPBNX1y4V2/view?usp=sharing)**
+
+---
+
+### 📸 Scratch Progression Preview
+
+| 0% Cleared | 31% Cleared | 52% Cleared | 65% Cleared | 70% Cleared |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="assets/1.jpeg" width="160" alt="0% Cleared" /> | <img src="assets/2.jpeg" width="160" alt="31% Cleared" /> | <img src="assets/3.jpeg" width="160" alt="52% Cleared" /> | <img src="assets/4.jpeg" width="160" alt="65% Cleared" /> | <img src="assets/5.jpeg" width="160" alt="70% Cleared" /> |
+
+</div>
+
+---
+
 ## ✨ Features
 
 - ⚡ **Hardware-Accelerated Masking**: Uses `CompositingStrategy.Offscreen` combined with `BlendMode.Clear` (PorterDuff CLEAR mode) to slice through top overlay layers smoothly.
