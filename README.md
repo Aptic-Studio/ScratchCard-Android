@@ -18,9 +18,9 @@ Built 100% with declarative Jetpack Compose UI and Compose Canvas graphics—no 
 
 ### 📸 Scratch Progression Preview
 
-| 0% Cleared | 31% Cleared | 52% Cleared | 65% Cleared | 70% Cleared |
+| 0% Cleared | 31% Cleared | 52% Cleared | 70% Cleared | 100% Cleared |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="assets/1.jpeg" width="160" alt="0% Cleared" /> | <img src="assets/2.jpeg" width="160" alt="31% Cleared" /> | <img src="assets/3.jpeg" width="160" alt="52% Cleared" /> | <img src="assets/4.jpeg" width="160" alt="65% Cleared" /> | <img src="assets/5.jpeg" width="160" alt="70% Cleared" /> |
+| <img src="assets/1.jpeg" width="160" alt="0% Cleared" /> | <img src="assets/2.jpeg" width="160" alt="31% Cleared" /> | <img src="assets/3.jpeg" width="160" alt="52% Cleared" /> | <img src="assets/5.jpeg" width="160" alt="70% Cleared" /> | <img src="assets/6.jpeg" width="160" alt="100% Cleared" /> |
 
 </div>
 
