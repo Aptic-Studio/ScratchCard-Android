@@ -1,0 +1,1 @@
+com.apticstudio.scratchcard.library
