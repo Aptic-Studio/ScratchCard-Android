@@ -15,17 +15,12 @@ android {
 
     defaultConfig {
         minSdk = 24
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
-    }
-
-    testOptions {
-        unitTests.isReturnDefaultValues = true
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
@@ -41,19 +36,17 @@ android {
     buildFeatures {
         compose = true
     }
-
-    publishing {
-        singleVariant("release") {
-            withSourcesJar()
-        }
-    }
 }
 
 afterEvaluate {
     extensions.configure<PublishingExtension> {
         publications {
             create<MavenPublication>("release") {
-                from(components["release"])
+                artifact(file("$projectDir/ScratchCard-release.aar"))
+
+                groupId = "com.github.Aptic-Studio"
+                artifactId = "ScratchCard-Android"
+                version = "v1.0.0"
             }
         }
     }
@@ -64,10 +57,4 @@ dependencies {
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.androidx.compose.ui.tooling.preview)
-
-    debugImplementation(libs.androidx.compose.ui.tooling)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
